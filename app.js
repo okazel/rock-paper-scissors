@@ -41,7 +41,11 @@ function playGame() {
     const computerSelection = getComputerChoice();
     playRound(humanSelection, computerSelection);
   }
-  console.log(humanScore + " " + computerScore);
+  console.log("======================");
+  console.log("THE GAME IS OVER!");
+  console.log(`PLAYER SCORES: ${humanScore}`);
+  console.log(`COMPUTER SCORES: ${computerScore}`);
+  console.log("======================");
 }
 
 playGame();
